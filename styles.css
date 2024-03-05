@@ -25,11 +25,12 @@ body {
 
 header h1 {
     color: #F0BCC0;
+    margin-left: 200px;
 }
 
 nav {
     width: 50%;
-    max-width: 300px;
+    max-width: 350px;
     height: 50px;
 }
 
@@ -40,7 +41,7 @@ nav, ul {
    margin: 0;
    padding-right: 50px;
    flex-direction: row;
-   gap: 20px;
+   gap: 30px;
 }
 
 ul, li {
@@ -63,6 +64,7 @@ li:hover {
     background-color: #F0BCC0;
     color: #000;
     border-radius: 10px;
+    padding: 5px;
 }
 
 .sec-1 {
@@ -74,33 +76,130 @@ li:hover {
     justify-content: space-evenly;
     align-items: center;
     padding: 0 0 50px 0;
+    
 }
 
 .sec-1 img {
-    width: 45%;
-    height: 45%;
-    margin-left: 300px;
+    width: 60%;
+    height: 60%;
+    margin-left: 100px;
     margin-top: 50px;
     border-radius: 10px;
 }
 
-.sec-1 h1 {
-    font-size: 48px;
-    font-weight: extra-bold;
+.text {
+    margin-left: 250px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 3000px;
 }
 
-.sec-1 button {
+.sec-1 h1 {
+    font-size: 40px;
+    font-weight: extra-bold;
+    margin: 0;
+}
+
+button {
     background-color: #fff;
     border-radius: 10px;
     padding: 10px 20px;
     border: none;
+    margin: 0;
+}
+
+.sec-2 {
+    margin-top: 50px;
+}
+
+.sec-2  h2 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 300px;
+    align-items: center;
+}
+
+.item {
+    text-align: center;
+}
+
+.interest {
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+figcaption {
+    width: 150px;
+    margin-left: 30px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+.container img {
+    border: #EDDFDE 5px solid;
+    object-fit: cover;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
 }
 
 .quote {
-   background-color: #EDDFDE; 
+   background-color: #EDDFDE;
+   width: 100%;
+   height: 300px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   /* border: #F0BCC0 solid 3px; */
+   margin: 0;
 }
+
+.main-quote {
+    text-align: center;
+}
+
+.thought {
+    width: 500px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.cta {
+    width: 100%;
+    height: 300px;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.frame-cta {
+    background-color: #F0BCC0;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    width: 50%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+} 
 
 footer {
     background-color: #F0BCC0;
     width: 100%;
+    height: 55px;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
