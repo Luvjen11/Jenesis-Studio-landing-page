@@ -1,3 +1,4 @@
+Live site: https://roaring-starburst-630aa8.netlify.app/
 Jenesis Studio Landing Page
 Welcome to the Jenesis Studio Landing Page project! This landing page is designed to showcase Jen's diverse interests, personal brand, and creative vision. Whether you're a visitor exploring Jen's passions or a potential collaborator interested in her work, this landing page offers a glimpse into her world and invites you to connect and engage.
 
